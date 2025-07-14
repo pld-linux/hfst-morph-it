@@ -24,7 +24,7 @@ włoskiego. Jest oparty na Morph-it! <http://sslmit.unibo.it/morphit/>.
 
 %prep
 %setup -q -n hfst-italian-installable
-%patch0 -p1
+%patch -P0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT
